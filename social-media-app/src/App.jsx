@@ -6,7 +6,8 @@ return(
 <h1>Fakebook!</h1>
 {/* CreatePostForm */}
 {/* Feed */}
-{/* Post */}
+<Post content="This is a test post!" />
+<Post content="This is another test post!" />
 </div>
 )
 }
