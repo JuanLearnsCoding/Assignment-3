@@ -1,5 +1,7 @@
 import React from 'react';
 
+import Comment from './Cooment';
+
 function Post(){
     return(
         <div>
@@ -7,6 +9,9 @@ function Post(){
             <p>This is a test post we'll edit later!</p>
             <p>Likes: 30</p>
             <p>Comments:</p>
+            <Comment content="This is a test comment!" />
+            <Comment content="This is another test commment!" />
+            <Comment content="This is yet another test comment!" />
         </div>
     )
 }
